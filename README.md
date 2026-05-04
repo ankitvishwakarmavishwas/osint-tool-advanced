@@ -86,12 +86,31 @@ python cli.py -u johndoe -e test@gmail.com
 ```
 osint-tool-advanced/
 │
-├── cli.py                # CLI interface
-├── core/                # OSINT modules
-├── engine/              # Orchestration & scoring
-├── utils/               # Helpers
-├── data/                # Sample datasets
-├── output/              # Reports
+├── cli.py                  # CLI entry point
+├── app.py                  # Streamlit UI
+│
+├── core/
+│   ├── username.py
+│   ├── email.py
+│   ├── breach.py
+│   ├── metadata.py
+│
+├── engine/
+│   ├── orchestrator.py
+│   ├── scorer.py
+│
+├── output/
+│   ├── report.json
+│   ├── report.txt
+│
+├── data/
+│   └── breached_emails.txt
+│
+├── utils/
+│   └── banner.py
+│
+├── requirements.txt
+└── README.md
 
 ```
 

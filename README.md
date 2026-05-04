@@ -97,16 +97,36 @@ osint-tool-advanced/
 
 ---
 
+
+## 🛠️ Tech Stack
+
+Python
+
+Requests
+
+JSON
+
+CLI (Argparse)
+
+
+---
+
+
 ## 🎯 Use Cases
+
+SOC Analyst training
+
 Cybersecurity investigations
 
-Threat intelligence analysis
-
-SOC analyst training
+Threat intelligence gathering
 
 Digital footprint analysis
 
+OSINT research practice
+
+
 ---
+
 
 ## 🔒 Disclaimer
 
@@ -118,15 +138,18 @@ No real data scraping or unauthorized access is performed.
 
 ## 🚀 Future Improvements
 
-Real OSINT API integration
+Real OSINT APIs integration
 
-Multi-threaded scanning
+Multi-threaded scanning engine
 
 Web dashboard (Streamlit)
 
-Email reputation APIs
+MITRE ATT&CK mapping
 
-Dark web simulation module
+Email breach API integration
+
+Export PDF investigation reports
+
 
 ---
 

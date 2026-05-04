@@ -1,0 +1,35 @@
+{
+    "username": [
+        {
+            "platform": "GitHub",
+            "url": "https://github.com/johndoe",
+            "status": "Found"
+        },
+        {
+            "platform": "Reddit",
+            "url": "https://www.reddit.com/user/johndoe",
+            "status": "Found"
+        },
+        {
+            "platform": "Twitter",
+            "url": "https://twitter.com/johndoe",
+            "status": "Found"
+        }
+    ],
+    "email": {
+        "email": "test@gmail.com",
+        "domain": "gmail.com",
+        "provider": "gmail"
+    },
+    "breaches": [
+        {
+            "breach": "Simulated Leak",
+            "severity": "High"
+        }
+    ],
+    "metadata": {
+        "length": 14,
+        "has_number": false
+    },
+    "risk_score": 90
+}
